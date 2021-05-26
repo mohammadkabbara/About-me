@@ -2,6 +2,9 @@
 
 let score=0;
 
+function question1(){
+
+
 
 let userName = prompt('what is your name ?');
 
@@ -27,10 +30,11 @@ console.log(myName);
 
 
 console.log(myName);
+}
+question1();
 
 
-
-
+function question2(){
 let userAge = prompt('is my age 24 ?');
 
 userAge=userAge.toLowerCase();
@@ -49,13 +53,14 @@ console.log(userAge);
     alert('answer yes,y  no,n  just please')
 }
 
-console.log(userAge);
+console.log(userAge); }
+question2();
 
 
 
 
-
-let userHoppy = prompt('do I like coding ?');
+function question3(){
+    let userHoppy = prompt('do I like coding ?');
 
 userHoppy=userHoppy.toLowerCase();
 
@@ -72,8 +77,11 @@ console.log(userHoppy);
 }
 
 console.log(userHoppy);
+} 
+question3();
 
 
+function question4(){
 let userLike = prompt('do I like to travel?');
 userLike=userLike.toLowerCase();
 if (userLike=== 'yes' || userLike=== 'y'){
@@ -86,10 +94,11 @@ if (userLike=== 'yes' || userLike=== 'y'){
     alert('answer yes,y  no,n  just please')
 }
 
-console.log(userLike);
+console.log(userLike);}
+question4();
 
 
-
+function question5(){
 let userCar = prompt('do I have a car ?');
 userCar=userCar.toLowerCase();
 
@@ -103,8 +112,12 @@ if (userCar=== 'yes' || userCar=== 'y'){
     alert('answer yes,y  no,n  just please')
 }
 
-console.log(userCar);
+console.log(userCar);}
+question5();
 
+
+
+function question6(){
 let userFavour = prompt('do I like astronomy ?');
 userFavour=userFavour.toLowerCase();
 
@@ -119,9 +132,10 @@ if (userFavour=== 'yes' || userFavour=== 'y'){
 }
 
 
-console.log(userFavour);
+console.log(userFavour);}
+question6();
 
-
+function question7(){
 let userMusic= prompt('do I like classic music ?');
 userMusic=userMusic.toLowerCase();
 
@@ -137,7 +151,8 @@ if (userMusic=== 'yes' || userMusic=== 'y'){
 }
 
 
-console.log(userMusic);
+console.log(userMusic);}
+question7();
 
 
 
