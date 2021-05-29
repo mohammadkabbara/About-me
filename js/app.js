@@ -164,41 +164,41 @@ question7();
 
 
 
-// let seasons=prompt('which seasons do you like more ? summer .spring , winter ,Autumn' )
-// seasons=seasons.toUpperCase()
-// switch (seasons) {
-//     case 'WINTER' :
+let seasons=prompt('which seasons do you like more ? summer .spring , winter ,Autumn' )
+seasons=seasons.toUpperCase()
+switch (seasons) {
+    case 'WINTER' :
 
-//         alert('it is so cold');
-//         console.log('it is so cold');
+        alert('it is so cold');
+        console.log('it is so cold');
 
-//         break;
+        break;
 
-//         case 'SUMMER' :
+        case 'SUMMER' :
 
-//         alert('it is so hot');
-//         console.log('it is so hot');
+        alert('it is so hot');
+        console.log('it is so hot');
 
-//         break;
+        break;
 
-//         case 'SPRING' :
+        case 'SPRING' :
 
-//         alert('it is fantastic');
-//         console.log('it is fantastic');
+        alert('it is fantastic');
+        console.log('it is fantastic');
 
-//         break;
+        break;
 
-//         case 'AUTUMN' :
+        case 'AUTUMN' :
 
-//         alert('it is good');
-//         console.log('it is good');
+        alert('it is good');
+        console.log('it is good');
 
-//         break;
+        break;
 
-//         default :
-//         alert('please choose a season just');
-//         console.log('please choose a season just');
-//         break ;
+        default :
+        alert('please choose a season just');
+        console.log('please choose a season just');
+        break ;
 
 
 
@@ -251,7 +251,7 @@ question7();
       alert('good luck in anthoer time the right answer is 5');
     }
 
-    // alert(`Thank you for your answer your grade is ${score}` )
+   
     
 
     
@@ -281,12 +281,4 @@ question7();
     }
 
     alert('my clubs is realmadrid , milan , chelsea');
-    alert('Thank you '  +  userName  + ' We Have A Fun Time your scoer is ' + score )
-
-
-
-    
-
-
-    
- 
+    alert('Thank you '  +  userName  + ' We Have A Fun Time your scoer is ' + score );
