@@ -2,14 +2,15 @@
 
 let score=0;
 
-function question1(){
+// function question1(){
 
 
 
 let userName = prompt('what is your name ?');
 
-alert('HELLO ' + userName + ' Welcome Here' )
-alert ('let is go to play guessing game')
+alert('HELLO ' + userName + ' Welcome Here' );
+alert ('let is go to play guessing game');
+console.log(userName);
 
 
 
@@ -30,8 +31,8 @@ console.log(myName);
 
 
 console.log(myName);
-}
-question1();
+// }
+// question1();
 
 
 function question2(){
@@ -199,6 +200,7 @@ switch (seasons) {
         alert('please choose a season just');
         console.log('please choose a season just');
         break ;
+    }
 
 
 
@@ -251,7 +253,7 @@ switch (seasons) {
       alert('good luck in anthoer time the right answer is 5');
     }
 
-   
+
     
 
     
@@ -281,4 +283,4 @@ switch (seasons) {
     }
 
     alert('my clubs is realmadrid , milan , chelsea');
-    alert('Thank you '  +  userName  + ' We Have A Fun Time your scoer is ' + score );
+    alert('Thank you '  +  userName + ' We Have A Fun Time your scoer is ' + score );
